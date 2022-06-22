@@ -1,0 +1,61 @@
+p{
+    color: black;
+    text-align: center; 
+}
+#First                         /* # --> id name*/
+{
+  color:black;
+  text-align: center;
+  width:fit-content;
+  border: 2px solid brown;   /*solid - line*/
+}
+#Sec
+{
+  color:black;
+  text-align: center;
+  width: 100px;              
+  border: 2px solid brown;
+}
+.cls1{  
+    text-align: center;
+    color: brown;
+}
+p.small{   /*classname*/
+    color :aqua;
+}
+a[target]           /*attribute-highlight the value*/
+{
+    background-color: yellow;
+}
+
+[title~=zoho-logo]  /*where the value is present then apply the design*/
+{
+    border: 1px solid black;
+}
+[class|=top]      /*when the class name is alone*/
+{
+    color:chartreuse;
+}
+[class^=abc]        /*starting wit same letter*/
+{
+    color:darkmagenta
+}
+[class$=aaa]{       /*ending with same letter*/
+    color:blue;
+}
+[class*=xy]{
+    color:brown;
+    width: fit-content;
+    border: 1px solid black;
+}
+div p{                 /* div inside the para*/
+    background-color: green;
+    border:1px solid brown;
+    color: brown;
+    }
+div > p{               /*div tag imediate p tag start not section*/
+    color: black;
+}
+div:nth-last-of-type(2){
+    background-color: yellow;
+}
