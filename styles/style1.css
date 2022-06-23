@@ -1,0 +1,104 @@
+p.first{
+    text-align: justify;
+    color:ff0000;
+    text-decoration:line-through;
+    text-transform: uppercase;
+    text-indent: 50px;
+    font-size: 1em;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.second{
+    text-decoration:underline;
+    color:rgb(red, green, blue);
+    text-transform: lowercase;
+    text-indent: 50px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+p.third{
+    color:red;
+    text-decoration: overline;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    font-size: 50px;
+    font-style:Bold;
+}
+ a:hover{
+    color: black;
+    background-color: darkcyan;
+}
+a:active{
+    color:green;
+    background-color: yellow;
+}
+a:visited{
+    color: red;
+    background-color: pink;
+}
+ol li{
+    list-style-type: lower-alpha;
+    display: inline;
+}
+ul li{
+    list-style-type: square;
+}
+table
+{
+    width: 50px;
+    height: 50px;
+    border: solid brown;
+    border-collapse:separate;
+}
+th
+{
+     border: 2px solid orange;
+}
+td
+{
+    border: 2px solid green;
+}
+/*
+div{
+    width:fit-content;
+     height:fit-content ;
+     border: solid brown;
+     margin: 100px;
+     padding: 25px;
+}*/
+
+body{
+    background-color: lightseagreen;
+    background-image:url(../icon.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+div.static{
+   position: static;
+   width: fit-content;
+    border: 3px solid blue;
+}
+span{
+    border: 3px solid red;
+}
+.Span span{
+    color:inherit;
+}
+.init{
+    color: blue;
+    border: 2px solid black;
+}
+.init h1{
+    color:initial;
+}
+.parent{
+    color:blue
+}
+.abc{
+    color:red;
+}
+.change{
+    color:revert;
+}

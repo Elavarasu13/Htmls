@@ -56,6 +56,7 @@ div p{                 /* div inside the para*/
 div > p{               /*div tag imediate p tag start not section*/
     color: black;
 }
+
 div:nth-last-of-type(2){
     background-color: yellow;
 }
