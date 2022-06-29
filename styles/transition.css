@@ -1,0 +1,58 @@
+h1{
+   width:10px;
+   height: 50px;
+   background-color: brown;
+   transition: width 2s,height 2s, transform 2s;
+}
+h1:hover{
+   width:200px;
+   height: 200px;
+   transform: rotate(90deg);
+}
+.Button{
+   background-color: cadetblue;
+   border-radius: 20px;
+   display: inline-block;
+   padding: 15px 15px;
+   font-size: 16px;
+   text-align: center;
+   text-decoration: none;
+   margin: 10px 6px;
+  
+   cursor: pointer;
+}
+.Button:hover{
+   background-color: blue;
+   color:white;
+}
+.Col {
+   text-align: center;
+   width:10px;
+   height:10px;
+   transition: width 2s;
+   background-color: blueviolet;
+}
+.Col:hover{
+width: 100px;
+height:100px;
+cursor: pointer;
+}
+.Cols{
+   margin-top: 40px;
+   column-count: 4;
+   column-width: 200px;
+   column-gap: 40px;
+   column-rule-style: solid;
+  
+}
+.Container{
+   margin-top: 50px;
+   column-width: 250px;
+   column-gap: 10px;
+}
+.content{
+   background-color: cadetblue;
+   border:2px solid chocolate;
+   padding:20px;
+   margin: 0 0 0 0;
+}
