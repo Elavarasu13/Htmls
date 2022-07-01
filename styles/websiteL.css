@@ -1,0 +1,54 @@
+
+
+body{
+    margin:0;
+}
+.container{
+    width: 1500px;
+    height: 800px;
+    border:3px solid red;
+}
+.header{
+    width:1500px;
+    height:70px;
+    background-color: cadetblue
+}
+.h1,.h2,.h3{
+    width:500px;
+    height:70px;
+    background-color: grey;
+    float: left;
+}
+.menu{
+    width: 1500px;
+    height: 70px;
+    background-color: aliceblue;
+    border:1px solid black;
+}
+.m1,.m2,.m3,.m4
+{
+   width:375px;
+    height:70px;
+    background-color: grey;
+    float: left;
+}
+.content>div{
+    height:570px;
+    border: 2px solid green;
+    float:left;
+}
+.c1{
+    width:750px;
+    border: 3px solid red;
+}
+.c2{
+    width:740px;
+}
+.footer
+{ 
+    margin: 580px 0 0 0;
+    width:1500px;
+    height:70px;
+    border: 1px solid black;
+
+}
