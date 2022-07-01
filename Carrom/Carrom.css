@@ -1,0 +1,184 @@
+body{
+    background-color: burlywood;
+}
+.Carromframe{
+    border:50px solid brown;
+    height:600px;
+    width:600px;
+    border-radius: 20px;
+    position:absolute;
+    top: 15%;left: 30%;
+    /*transform: translate(-50%,-50%);*/
+}
+
+/* Pockets Styles */
+
+.pocket
+{
+    height:60px;
+    width:60px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+.p1{
+    top:0;
+    left:0;
+}
+.p2{
+    top:0;
+    right:0;
+}
+.p3{
+    bottom:0;
+    left:0;
+}
+.p4{
+    bottom:0;
+    right:0;
+}
+
+/*Bases */
+.base{
+    border:3px solid black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 40%;
+}
+.top-base{
+    height:6.5%;
+    width:75%;
+    top:14%;
+    left:50%;
+}
+.right-base
+{
+    height:70%;
+    width:6.5%;
+    top:51%;
+    right:3%;
+}
+
+.bottom-base
+{
+    height:6.5%;
+    width:75%;
+    bottom:5%;
+    left:49%;
+}
+.left-base
+{
+height:70%;
+width:6.5%;
+top:50%;
+left:10%;
+}
+/*End of Bases */
+
+/*Cricles */
+.red-circle{
+    height: 38px;
+    width: 38px;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    margin:2px 2px;
+}
+.c1{
+    top:0%;
+    left:0%;
+}
+.c2{
+    top:0%;
+    right:0%;
+} 
+.c3{
+    top:0%;
+    right:0%;
+}
+.c4{
+    bottom:0;
+    right:0;
+}
+.c5
+{
+bottom:0;
+right:0
+}
+.c6{
+        bottom:0;
+        left:0;
+    
+}
+.c7{
+    bottom:0;
+    left:0;
+}
+.c8{
+    top:0;
+    right:0;
+}
+/*Circle Ends*/
+
+/* Cicle OutLine */
+.outline{
+    height:35px;
+    width:35px;
+    position:absolute;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+.out1
+{
+top:0;
+left:0;
+}
+.out2
+{
+top:0;
+right:0;
+}
+.out3{
+    top:0;
+    right:0;
+}
+.out4{
+    bottom:0;
+    right:0;
+}
+.out5{
+    bottom:0;
+    right:0;
+}
+.out6{
+    bottom:0;
+    left:0;
+}
+.out7
+{
+    bottom:0;
+    left:0;
+}
+.out8
+{
+    top:0;
+    right:0;
+}
+.circle{
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+    border:3px solid black;
+    transform: translate(200px,200px);
+}
+.inside{
+    height:100px;
+    width:100px;
+    border-radius: 1200px;
+    border:3px solid black;
+    transform: translate(50px,50px);
+}
+
+    
+
+
